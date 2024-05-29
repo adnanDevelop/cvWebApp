@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-Roboto overflow-x-hidden;
+    }
+
+    .transition {
+        @apply transition-all duration-300 ease-linear;
+    }
+
+    .btn-primary-sm {
+        @apply h-[35px] flex items-center justify-center px-[20px] text-white bg-blue capitalize text-sm transition-all duration-300 ease-linear hover:bg-purple hover:text-white rounded-lg border-none;
+    }
+
+
+}
