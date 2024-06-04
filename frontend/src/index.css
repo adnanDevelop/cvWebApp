@@ -9,8 +9,8 @@
         @apply overflow-x-hidden font-roboto;
     }
 
-    .margin-block {
-        @apply my-[100px];
+    .padding-block {
+        @apply py-[150px];
     }
 
     .transitions {

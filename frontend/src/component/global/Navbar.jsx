@@ -17,7 +17,7 @@ function Navbar() {
 
   return (
     <header
-      className={`${navbarActive}  transitions fixed top-0 left-[50%] translate-x-[-50%] w-full `}
+      className={`${navbarActive}  transitions fixed top-0 left-[50%] translate-x-[-50%] w-full z-[10]`}
     >
       {/* Large Screen links   */}
       <nav className={`flex items-center justify-between custom_width py-3`}>
