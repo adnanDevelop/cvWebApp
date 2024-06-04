@@ -17,14 +17,15 @@ export default {
         "light-white": "#D3CDCD",
       },
       fontFamily: {
-        Roboto: ["Roboto", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
+        poppin: ["Poppins", "sans-serif"],
       },
       screens: {
         sm: "640px",
         md: "768px",
         lg: "1024px",
-        xl: "1280px",
-        "2xl": "1500px",
+        xl: "1200px",
+        "2xl": "1400px",
       },
       boxShadow: {
         sm: "0 5px 40px 0 rgb(0 0 0 / 11%)",

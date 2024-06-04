@@ -1,19 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
     body {
-        @apply font-Roboto overflow-x-hidden;
+        @apply overflow-x-hidden font-roboto;
     }
 
-    .transition {
+    .margin-block {
+        @apply my-[100px];
+    }
+
+    .transitions {
         @apply transition-all duration-300 ease-linear;
     }
 
-    .btn-primary-sm {
-        @apply h-[35px] flex items-center justify-center px-[20px] text-white bg-blue capitalize text-sm transition-all duration-300 ease-linear hover:bg-purple hover:text-white rounded-lg border-none;
+    .custom_width {
+        @apply xl:max-w-[1140px] mx-auto lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] sm:px-0 px-5;
     }
 
+    .btn-primary-sm {
+        @apply h-[35px] flex items-center justify-center px-[25px] text-white bg-primary capitalize text-sm transition-all duration-300 ease-linear hover:bg-purple hover:text-white rounded-md border-none;
+    }
+
+    .btn-primary-lg {
+        @apply h-[45px] sm:min-w-[170px] min-w-[150px] flex items-center justify-center font-medium text-white bg-primary capitalize sm:text-sm text-[12px] font-poppin leading-none transition-all duration-300 ease-linear hover:bg-purple hover:text-white rounded-md border-none;
+    }
+
+    .btn-primary-lg-outline {
+        @apply h-[45px] min-w-[160px] flex items-center justify-center font-medium text-primary bg-transparent capitalize text-[15px] leading-none transition-all duration-300 ease-linear hover:bg-primary hover:text-white rounded-md border-2 border-primary hover:border-primary;
+    }
 
 }
