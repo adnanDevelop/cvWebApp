@@ -10,7 +10,7 @@
     }
 
     .padding-block {
-        @apply py-[150px];
+        @apply lg:py-[100px] md:py-[80px] py-[60px];
     }
 
     .transitions {

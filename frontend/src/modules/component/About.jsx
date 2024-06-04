@@ -66,7 +66,7 @@ export default function About() {
           </div>
 
           <div className="mt-4">
-            <h2 className="xl:text-[35px] text-[30px] md:my-8 my-4  font-medium leading-none text-blue">
+            <h2 className="xl:text-[35px] text-[30px] md:my-8 my-4 font-poppin font-semibold leading-none text-blue">
               Why Choose Our Platform?
             </h2>
             <p className="text-base leading-7 text-justify font-poppin text-gray">
