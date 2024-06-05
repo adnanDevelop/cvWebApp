@@ -16,7 +16,10 @@ export default function Pricing() {
   ];
 
   return (
-    <main className="grid grid-cols-12 gap-6 custom_width padding-block">
+    <main
+      className="grid grid-cols-12 gap-6 custom_width padding-block"
+      id="pricing"
+    >
       <section className="p-3 col-span-full md:col-span-6 lg:col-span-4">
         <div className="pricing_content">
           {/* Dot section */}

@@ -14,14 +14,25 @@ export default function Template() {
   ];
 
   return (
-    <main className="padding-block bg-[url('/image/template/template-bg.png')] bg-cover">
+    <main
+      className="padding-block bg-[url('/image/template/template-bg.png')] bg-cover"
+      id="template"
+    >
       <section className="custom_width">
         <Header title={headerContent.title} content={headerContent.content} />
-        <div className="grid grid-cols-12">
+        <div className="grid grid-cols-12 gap-4">
           {template.map((element, index) => {
             return (
-              <div key={index}>
+              <div
+                key={index}
+                className="border-2 border-white shadow-sm lg:col-span-4 sm:col-span-6 col-span-full transitions hover:border-red-500"
+              >
                 <img src={element} alt="" />
+                <div className="flex items-center justify-center p-5 sm:mt-2">
+                  <button className="font-semibold uppercase rounded-full btn-primary-lg">
+                    see templates
+                  </button>
+                </div>
               </div>
             );
           })}

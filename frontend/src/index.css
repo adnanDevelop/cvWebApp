@@ -22,15 +22,15 @@
     }
 
     .btn-primary-sm {
-        @apply h-[35px] flex items-center justify-center px-[25px] text-white bg-primary capitalize text-sm transition-all duration-300 ease-linear hover:bg-purple hover:text-white rounded-md border-none;
+        @apply h-[35px] flex items-center scale-100 hover:scale-105 justify-center px-[25px] text-white bg-primary capitalize text-sm transition-all duration-300 ease-linear hover:bg-purple hover:text-white rounded-md border-none;
     }
 
     .btn-primary-lg {
-        @apply h-[45px] sm:min-w-[170px] min-w-[150px] flex items-center justify-center font-medium text-white bg-primary capitalize sm:text-sm text-[12px] font-poppin leading-none transition-all duration-300 ease-linear hover:bg-purple hover:text-white rounded-md border-none;
+        @apply h-[45px] sm:min-w-[170px] min-w-[150px] flex items-center justify-center font-medium text-white bg-primary capitalize sm:text-sm text-[12px] font-poppin leading-none transition-all duration-300 ease-linear hover:bg-purple hover:text-white rounded-md border-none scale-100 hover:scale-105;
     }
 
     .btn-primary-lg-outline {
-        @apply h-[45px] min-w-[160px] flex items-center justify-center font-medium text-primary bg-transparent capitalize text-[15px] leading-none transition-all duration-300 ease-linear hover:bg-primary hover:text-white rounded-md border-2 border-primary hover:border-primary;
+        @apply h-[45px] min-w-[160px] flex items-center justify-center font-medium text-primary bg-transparent capitalize text-[15px] scale-100 hover:scale-105 leading-none transition-all duration-300 ease-linear hover:bg-primary hover:text-white rounded-md border-2 border-primary hover:border-primary;
     }
 
 }
