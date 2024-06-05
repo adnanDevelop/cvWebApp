@@ -8,7 +8,7 @@ export default function Hero() {
       <section className="col-span-6 mb-4 xl:pe-5 lg:mb-0">
         <div
           className="flex items-center gap-1 py-2 px-2.5 rounded-full max-w-[400px] bg-light-blue"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-duration="1000"
         >
           <img src="/image/dollar-icon.svg" alt="" />
@@ -18,14 +18,14 @@ export default function Hero() {
         </div>
         <h1
           className="xl:text-[45px] md:text-[40px] text-[30px] md:my-8 my-5 font-semibold font-poppin  leading-none text-blue"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-duration="1500"
         >
           Online CV Builder With Creative Templates.
         </h1>
         <p
           className="text-base leading-7 text-justify lg:text-lg text-gray font-poppin"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-duration="2000"
         >
           Our Perfect resume builder takes the hassle out of resume writing.
@@ -35,7 +35,7 @@ export default function Hero() {
 
         <div
           className="flex mt-5 md:mt-8 gap-x-3"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-duration="2500"
         >
           <button className="uppercase btn-primary-lg">choose template</button>
@@ -45,8 +45,8 @@ export default function Hero() {
       {/* Image section */}
       <section
         className="col-span-6 "
-        data-aos="fade-left"
-        data-aos-duration="1000"
+        data-aos="fade-zoom-in"
+        data-aos-duration="1500"
       >
         <img src="/image/hero-img.png" loading="lazy" alt="" />
       </section>

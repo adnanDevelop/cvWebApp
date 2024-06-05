@@ -64,7 +64,7 @@ export default function Deliver() {
         <div className="col-span-6">
           <div
             className="items-center justify-center w-full lg:flex deliver_img"
-            data-aos="fade-left"
+            data-aos="fade-zoom-in"
             data-aos-duration="2000"
           >
             <img src="/image/deliver/cv-img.png" loading="lazy" alt="" />

@@ -46,7 +46,7 @@ export default function Pricing() {
             </h2>
             <p
               className="text-base leading-7 text-justify font-poppin text-gray"
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-duration="1800"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
@@ -56,17 +56,13 @@ export default function Pricing() {
 
             <div
               className="flex flex-col items-center justify-center w-full py-4 mt-5 border text-primary border-primary"
-              data-aos="zoom-in-out"
+              data-aos="fade-up"
               data-aos-duration="2200"
             >
               <p className="font-semibold">Lets Build CV</p>
               <p className="capitalize ">With 7 days of free trial</p>
             </div>
-            <div
-              className="mt-5"
-              data-aos="fade-right"
-              data-aos-duration="2300"
-            >
+            <div className="mt-5" data-aos="fade-up" data-aos-duration="2300">
               <p className="text-lg leading-none text-primary font-poppin">
                 Terms & condition
               </p>
