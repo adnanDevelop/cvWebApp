@@ -45,7 +45,7 @@ export default function Hero() {
       {/* Image section */}
       <section
         className="col-span-6 "
-        data-aos="fade-zoom-in"
+        data-aos="fade-up"
         data-aos-duration="1500"
       >
         <img src="/image/hero-img.png" loading="lazy" alt="" />

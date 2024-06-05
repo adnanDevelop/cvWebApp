@@ -25,7 +25,7 @@ function Navbar() {
         {/* Logo section */}
         <div
           className="flex items-center"
-          data-aos="fade-zoom-in"
+          data-aos="fade-up"
           data-aos-duration="2500"
         >
           <img src="/image/logo.png" alt="" loading="lazy" />
@@ -47,7 +47,7 @@ function Navbar() {
         <div className="hidden lg:block">
           <ul
             className="flex items-center list-none gap-x-6"
-            data-aos="fade-zoom-in"
+            data-aos="fade-up"
             data-aos-duration="2500"
           >
             <li>
@@ -117,14 +117,14 @@ function Navbar() {
           <div className="flex gap-x-2">
             <button
               className="uppercase btn-primary-sm"
-              data-aos="fade-zoom-in"
+              data-aos="fade-up"
               data-aos-duration="3000"
             >
               Log in
             </button>
             <button
               className="uppercase btn-primary-sm"
-              data-aos="fade-zoom-in"
+              data-aos="fade-up"
               data-aos-duration="3500"
             >
               sign Up

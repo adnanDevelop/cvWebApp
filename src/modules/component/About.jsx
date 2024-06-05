@@ -59,7 +59,7 @@ export default function About() {
           {/* Dot section */}
           <div
             className="flex items-center gap-x-1.5"
-            data-aos="fade-zoom-in"
+            data-aos="fade-up"
             data-aos-duration="1200"
           >
             <span className="w-[8px] h-[8px] rounded-full bg-primary"></span>
