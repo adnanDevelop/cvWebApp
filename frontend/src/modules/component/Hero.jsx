@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <main
       className="w-full lg:grid grid-cols-12 gap-4 md:mt-[200px] lg:mb-[50px] mt-[120px] custom_width  items-center"
-      id="home"
+      id="hero"
     >
       {/* Content section */}
       <section className="col-span-6 mb-4 xl:pe-5 lg:mb-0">

@@ -21,7 +21,7 @@ export default function About() {
   ];
 
   return (
-    <main className="relative w-full overflow-hidden padding-block" id="about">
+    <div className="relative w-full overflow-hidden padding-block" id="about">
       <img
         src="/image/about/about-bg.svg"
         className="absolute top-0 left-0 z-[-1]"
@@ -87,6 +87,6 @@ export default function About() {
           </div>
         </section>
       </section>
-    </main>
+    </div>
   );
 }

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { GrClose } from "react-icons/gr";
+import { Link } from "react-scroll";
 
 function Navbar() {
   const [navbarActive, setNavbarActive] = useState("");
@@ -24,52 +25,82 @@ function Navbar() {
         {/* Logo section */}
         <div className="flex items-center">
           <img src="/image/logo.png" alt="" />
-          <p className="text-[22px] font-semibold leading-none font-poppin text-[#333]">
-            CV Builder
-          </p>
+          <Link
+            className="cursor-pointer"
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            <p className="text-[22px] font-semibold leading-none font-poppin text-[#333]">
+              CV Builder
+            </p>
+          </Link>
         </div>
         {/* Link section */}
         <div className="hidden lg:block">
           <ul className="flex items-center list-none gap-x-6">
             <li>
-              <a
-                href="#home"
-                className={`font-medium text-[#333] uppercase transitions hover:text-primary focus:text-primary   font-poppin  `}
+              <Link
+                to="hero"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                className={`font-medium text-[#333] uppercase transitions hover:text-primary focus:text-primary   font-poppin cursor-pointer `}
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#about"
-                className={`font-medium text-[#333]  uppercase transitions hover:text-primary focus:text-primary   tex font-poppin `}
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                className={`font-medium text-[#333] uppercase transitions hover:text-primary focus:text-primary   font-poppin cursor-pointer `}
               >
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#pricing"
-                className={`font-medium text-[#333]  uppercase transitions hover:text-primary focus:text-primary   tex font-poppin `}
+              <Link
+                to="pricing"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                className={`font-medium text-[#333] uppercase transitions hover:text-primary focus:text-primary   font-poppin cursor-pointer `}
               >
                 Pricing
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#template"
-                className={`font-medium text-[#333]  uppercase transitions hover:text-primary focus:text-primary   font-poppin  `}
+              <Link
+                to="template"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                className={`font-medium text-[#333] uppercase transitions hover:text-primary focus:text-primary   font-poppin cursor-pointer `}
               >
                 Template
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#contact"
-                className={`font-medium text-[#333]  uppercase transitions hover:text-primary focus:text-primary   font-poppin  `}
+              <Link
+                to="testmonial"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                className={`font-medium text-[#333] uppercase transitions hover:text-primary focus:text-primary   font-poppin cursor-pointer `}
               >
                 contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
