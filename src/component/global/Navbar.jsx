@@ -28,7 +28,7 @@ function Navbar() {
           data-aos="fade-zoom-in"
           data-aos-duration="2500"
         >
-          <img src="/image/logo.png" alt="" />
+          <img src="/image/logo.png" alt="" loading="lazy" />
           <Link
             className="cursor-pointer"
             activeClass="active"
@@ -171,7 +171,12 @@ function Navbar() {
       >
         <div className="absolute top-0 left-0 flex items-center justify-between w-full p-3 mb-10">
           <div className="flex items-center">
-            <img src="/image/logo.png" className="w-[40px]" alt="" />
+            <img
+              src="/image/logo.png"
+              className="w-[40px]"
+              alt=""
+              loading="lazy"
+            />
             <p className="text-base font-semibold leading-none text-white font-poppin">
               CV Builder
             </p>

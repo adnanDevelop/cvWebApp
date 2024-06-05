@@ -45,7 +45,11 @@ export default function Deliver() {
                       data-aos="fade-up"
                       data-aos-duration="2200"
                     >
-                      <img src="/image/deliver/check-icon.png" alt="" />
+                      <img
+                        src="/image/deliver/check-icon.png"
+                        alt=""
+                        loading="lazy"
+                      />
                       <p className="sm:text-base text-sm font-medium leading-none  text-[#333] font-poppin">
                         {element}
                       </p>
@@ -63,7 +67,7 @@ export default function Deliver() {
             data-aos="fade-left"
             data-aos-duration="2000"
           >
-            <img src="/image/deliver/cv-img.png" alt="" />
+            <img src="/image/deliver/cv-img.png" loading="lazy" alt="" />
           </div>
         </div>
       </section>
@@ -74,6 +78,7 @@ export default function Deliver() {
           src="/image/deliver/custom-template.png"
           alt="custom template image"
           className="absolute top-0 left-0 z-[-1] lg:block hidden"
+          loading="lazy"
         />
         <div className="flex md:flex-row flex-col items-center justify-between gap-x-4 xl:max-w-[750px] lg:max-w-[600px] ms-auto">
           <h2

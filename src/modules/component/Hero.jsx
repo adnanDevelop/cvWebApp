@@ -48,7 +48,7 @@ export default function Hero() {
         data-aos="fade-left"
         data-aos-duration="1000"
       >
-        <img src="/image/hero-img.png" alt="" />
+        <img src="/image/hero-img.png" loading="lazy" alt="" />
       </section>
     </main>
   );

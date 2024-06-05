@@ -29,7 +29,7 @@ export default function Template() {
                 data-aos="zoom-in-out"
                 data-aos-duration="1800"
               >
-                <img src={element} alt="" />
+                <img src={element} alt="" loading="lazy" />
                 <div className="flex items-center justify-center p-5 sm:mt-2">
                   <button className="font-semibold uppercase rounded-full btn-primary-lg">
                     see templates

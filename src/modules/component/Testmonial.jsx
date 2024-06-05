@@ -106,6 +106,7 @@ export default function Testmonial() {
                     src={element.icon}
                     className="w-[80px] rounded-full "
                     alt=""
+                    loading="lazy"
                   />
                   <p className="my-5 text-sm text-gray font-poppin">
                     {element.content}

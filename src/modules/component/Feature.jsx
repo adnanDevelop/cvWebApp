@@ -61,7 +61,7 @@ export default function Feature() {
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            <img src={element.icon} alt="" />
+            <img src={element.icon} alt="" loading="lazy" />
             <h4 className="text-lg font-bold leading-tight text-center text-blue font-poppin ">
               {element.title}
             </h4>

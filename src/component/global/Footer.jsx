@@ -34,6 +34,7 @@ export default function Footer() {
                 src="/image/logo.png"
                 className="w-[50px] h-auto object-cover"
                 alt=""
+                loading="lazy"
               />
               <p className="text-[20px] font-medium leading-none text-white font-poppin">
                 CV Builder

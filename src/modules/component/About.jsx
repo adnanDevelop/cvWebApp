@@ -39,7 +39,7 @@ export default function About() {
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
-                  <img src={element.icon} alt="" />
+                  <img src={element.icon} loading="lazy" alt="" />
                   <div>
                     <h4 className="mb-1 text-base font-semibold sm:text-lg text-blue font-poppin">
                       {element.title}

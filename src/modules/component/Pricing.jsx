@@ -85,7 +85,10 @@ export default function Pricing() {
             data-aos="fade-up"
             data-aos-duration="2600"
           >
-            <div className="bg-[url('/image/price/price-img.png')] bg-no-repeat bg-right-top bg-[length:70%]  px-[40px] xl:pt-[45px] md:pt-[35px] pt-[25px] xl:pb-[60px] pb-[40px] text-right">
+            <div
+              loading="lazy"
+              className="bg-[url('/image/price/price-img.png')] bg-no-repeat bg-right-top bg-[length:70%]  px-[40px] xl:pt-[45px] md:pt-[35px] pt-[25px] xl:pb-[60px] pb-[40px] text-right"
+            >
               <h2 className="font-poppin xl:text-[40px] text-[30px] leading-none font-bold text-white">
                 {element.price}
               </h2>
