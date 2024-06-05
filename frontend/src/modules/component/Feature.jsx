@@ -47,7 +47,7 @@ export default function Feature() {
   ];
 
   return (
-    <main className="custom_width">
+    <main className="custom_width padding-block">
       {/*Header Section  */}
       <section>
         <Header title={headerContent.title} content={headerContent.content} />
