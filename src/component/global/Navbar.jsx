@@ -193,49 +193,69 @@ function Navbar() {
 
         <ul className="flex flex-col justify-center h-full gap-y-2">
           <li>
-            <a
-              href="#home"
-              className={`font-medium text-[#333] uppercase transitions hover:text-primary focus:text-primary   font-poppin border-b-2 border-b-[#333] focus:border-b-primary py-4 w-full block `}
+            <Link
+              to="hero"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              className={`font-medium text-light-white  uppercase transitions hover:text-primary focus:text-primary  font-poppin border-b-2 border-b-light-white focus:border-b-primary py-4 w-full block `}
               onClick={() => setOpen(false)}
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#about"
-              className={`font-medium text-[#333]  uppercase transitions hover:text-primary focus:text-primary  font-poppin border-b-2 border-b-[#333] focus:border-b-primary py-4 w-full block `}
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              className={`font-medium text-light-white  uppercase transitions hover:text-primary focus:text-primary  font-poppin border-b-2 border-b-light-white focus:border-b-primary py-4 w-full block `}
               onClick={() => setOpen(false)}
             >
               About Us
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#pricing"
-              className={`font-medium text-[#333]  uppercase transitions hover:text-primary focus:text-primary font-poppin border-b-2 border-b-[#333] focus:border-b-primary py-4 w-full block `}
+            <Link
+              to="pricing"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              className={`font-medium text-light-white  uppercase transitions hover:text-primary focus:text-primary  font-poppin border-b-2 border-b-light-white focus:border-b-primary py-4 w-full block `}
               onClick={() => setOpen(false)}
             >
               Pricing
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#template"
-              className={`font-medium text-[#333]  uppercase transitions hover:text-primary focus:text-primary font-poppin border-b-2 border-b-[#333] focus:border-b-primary py-4 w-full block  `}
+            <Link
+              to="template"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              className={`font-medium text-light-white  uppercase transitions hover:text-primary focus:text-primary  font-poppin border-b-2 border-b-light-white focus:border-b-primary py-4 w-full block `}
               onClick={() => setOpen(false)}
             >
               Template
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#contact"
-              className={`font-medium text-[#333]  uppercase transitions hover:text-primary focus:text-primary font-poppin border-b-2 border-b-[#333] focus:border-b-primary py-4 w-full block  `}
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              className={`font-medium text-light-white  uppercase transitions hover:text-primary focus:text-primary  font-poppin border-b-2 border-b-light-white hover:border-b-primary focus:border-b-primary py-4 w-full block `}
               onClick={() => setOpen(false)}
             >
               contact
-            </a>
+            </Link>
           </li>
         </ul>
 
