@@ -3,7 +3,11 @@ function Header({ title, content }) {
   return (
     <section className="flex flex-col items-center justify-center gap-3 custom_width mb-[60px]">
       {/* Dot section */}
-      <div className="flex items-center gap-x-1.5">
+      <div
+        className="flex items-center gap-x-1.5"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+      >
         <span className="w-[8px] h-[8px] rounded-full bg-primary"></span>
         <span className="w-[8px] h-[8px] rounded-full bg-[#9c88ff]"></span>
         <span className="w-[8px] h-[8px] rounded-full bg-[#fbc531]"></span>
@@ -13,10 +17,20 @@ function Header({ title, content }) {
         <span className="w-[8px] h-[8px] rounded-full bg-[#8c7ae6]"></span>
       </div>
       <div className="text-center max-w-[700px]">
-        <h2 className="xl:text-[35px] text-[30px] my-4 font-poppin font-semibold leading-none text-blue">
+        <h2
+          className="xl:text-[35px] text-[30px] my-4 font-poppin font-semibold leading-none text-blue"
+          data-aos="fade-up"
+          data-aos-duration="1400"
+        >
           {title}
         </h2>
-        <p className="text-base leading-7 font-poppin text-gray">{content}</p>
+        <p
+          className="text-base leading-7 font-poppin text-gray"
+          data-aos="fade-up"
+          data-aos-duration="1800"
+        >
+          {content}
+        </p>
       </div>
     </section>
   );

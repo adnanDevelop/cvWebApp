@@ -23,7 +23,11 @@ function Navbar() {
       {/* Large Screen links   */}
       <nav className={`flex items-center justify-between custom_width py-3`}>
         {/* Logo section */}
-        <div className="flex items-center">
+        <div
+          className="flex items-center"
+          data-aos="fade-zoom-in"
+          data-aos-duration="2500"
+        >
           <img src="/image/logo.png" alt="" />
           <Link
             className="cursor-pointer"
@@ -41,7 +45,11 @@ function Navbar() {
         </div>
         {/* Link section */}
         <div className="hidden lg:block">
-          <ul className="flex items-center list-none gap-x-6">
+          <ul
+            className="flex items-center list-none gap-x-6"
+            data-aos="fade-zoom-in"
+            data-aos-duration="2500"
+          >
             <li>
               <Link
                 to="hero"
@@ -107,8 +115,20 @@ function Navbar() {
         {/* Button section */}
         <div className="hidden lg:block">
           <div className="flex gap-x-2">
-            <button className="uppercase btn-primary-sm">Log in</button>
-            <button className="uppercase btn-primary-sm">sign Up</button>
+            <button
+              className="uppercase btn-primary-sm"
+              data-aos="fade-zoom-in"
+              data-aos-duration="3000"
+            >
+              Log in
+            </button>
+            <button
+              className="uppercase btn-primary-sm"
+              data-aos="fade-zoom-in"
+              data-aos-duration="3500"
+            >
+              sign Up
+            </button>
           </div>
         </div>
 

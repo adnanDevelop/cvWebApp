@@ -58,6 +58,8 @@ export default function Feature() {
           <div
             className="flex flex-col items-center justify-center gap-4 px-4 py-6 shadow-sm rounded-xl sm:col-span-6 lg:col-span-4 col-span-full"
             key={index}
+            data-aos="fade-up"
+            data-aos-duration="1500"
           >
             <img src={element.icon} alt="" />
             <h4 className="text-lg font-bold leading-tight text-center text-blue font-poppin ">

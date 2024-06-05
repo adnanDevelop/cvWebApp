@@ -36,6 +36,8 @@ export default function About() {
                 <div
                   className="flex items-center w-full px-4 mb-4 bg-white rounded-sm shadow-md sm:px-6 py-7 gap-x-3"
                   key={index}
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
                 >
                   <img src={element.icon} alt="" />
                   <div>
@@ -55,7 +57,11 @@ export default function About() {
         {/* About content */}
         <section className="col-span-6 lg:ps-[20px]">
           {/* Dot section */}
-          <div className="flex items-center gap-x-1.5">
+          <div
+            className="flex items-center gap-x-1.5"
+            data-aos="fade-zoom-in"
+            data-aos-duration="1200"
+          >
             <span className="w-[8px] h-[8px] rounded-full bg-primary"></span>
             <span className="w-[8px] h-[8px] rounded-full bg-[#9c88ff]"></span>
             <span className="w-[8px] h-[8px] rounded-full bg-[#fbc531]"></span>
@@ -66,22 +72,38 @@ export default function About() {
           </div>
 
           <div className="mt-4">
-            <h2 className="xl:text-[35px] text-[30px] md:my-8 my-4 font-poppin font-semibold leading-none text-blue">
+            <h2
+              className="xl:text-[35px] text-[30px] md:my-8 my-4 font-poppin font-semibold leading-none text-blue"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               Why Choose Our Platform?
             </h2>
-            <p className="text-base leading-7 text-justify font-poppin text-gray">
+            <p
+              className="text-base leading-7 text-justify font-poppin text-gray"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
               dictum risus, non suscipit arcu. Quisque aliquam posuere tortor,
               sit amet convallis nunc scelerisque in.
             </p>
-            <p className="mt-3 text-base leading-7 text-justify font-poppin text-gray">
+            <p
+              className="mt-3 text-base leading-7 text-justify font-poppin text-gray"
+              data-aos="fade-up"
+              data-aos-duration="2500"
+            >
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
               eius molestiae facere, natus reprehenderit eaque eum, autem ipsam.
               Magni, error. Tempora odit laborum iure inventore possimus
               laboriosam qui nam. Fugit!
             </p>
 
-            <button className="mt-4 uppercase btn-primary-lg">
+            <button
+              className="mt-4 uppercase btn-primary-lg"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               lets build you cv
             </button>
           </div>

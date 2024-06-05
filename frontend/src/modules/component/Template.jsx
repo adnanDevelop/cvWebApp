@@ -26,6 +26,8 @@ export default function Template() {
               <div
                 key={index}
                 className="border-2 border-white shadow-sm lg:col-span-4 sm:col-span-6 col-span-full transitions hover:border-red-500"
+                data-aos="zoom-in-out"
+                data-aos-duration="1800"
               >
                 <img src={element} alt="" />
                 <div className="flex items-center justify-center p-5 sm:mt-2">
