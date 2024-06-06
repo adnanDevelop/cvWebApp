@@ -1,3 +1,4 @@
+import TopBtn from "../../component/global/TopBtn";
 import {
   Hero,
   About,
@@ -12,7 +13,7 @@ import {
 
 export default function Home() {
   return (
-    <>
+    <main className="relative">
       <Navbar />
       <Hero />
       <About />
@@ -22,6 +23,7 @@ export default function Home() {
       <Feature />
       <Testmonial />
       <Footer />
-    </>
+      <TopBtn />
+    </main>
   );
 }
